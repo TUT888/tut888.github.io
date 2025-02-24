@@ -1,3 +1,15 @@
-theme: jekyll-theme-minimal
-title: TUT888's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Portfolio
+email: my-email@example.com
+description: >-
+  This site serves as the portfolio of my academic journey, 
+  showcasing my works, interest and capabilities in IT fields.
+
+domain: tut888.github.io
+url: https://tut888.github.io
+baseurl: "" # the subpath of your site, e.g. /blog
+github_username:  tut888
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
