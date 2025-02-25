@@ -1,0 +1,26 @@
+- name: Python
+  code: python
+
+- name: NumPy
+  code: numpy
+
+- name: pandas
+  code: pandas
+
+- name: Matplotlib
+  code: matplotlib
+
+- name: opencv
+  code: opencv
+
+- name: PyTorch
+  code: pytorch
+
+- name: scikit-learn
+  code: scikitlearn
+
+- name: TensorFlow
+  code: tensorflow
+
+- name: Keras
+  code: keras

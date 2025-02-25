@@ -1,13 +1,15 @@
-title: Portfolio
-email: my-email@example.com
+title: Alice Tat
+email: tattam192@gmail.com
 description: >-
-  This site serves as the portfolio of my academic journey, 
-  showcasing my works, interest and capabilities in IT fields.
+  Hello! I'm currently a Master's student at Deakin University, 
+  passionate about software development and continuously enhancing my skills and knowledge in the field.
 
 domain: tut888.github.io
 url: https://tut888.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
-github_username:  tut888
+github_username: tut888
+linkedin_user: alice-tat
+owner_name: Alice
 
 # Build settings
 github: [metadata]
