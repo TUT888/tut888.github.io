@@ -10,6 +10,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 github_username:  tut888
 
 # Build settings
-theme: minima
+github: [metadata]
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
