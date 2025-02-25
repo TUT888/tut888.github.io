@@ -1,0 +1,12 @@
+
+{% if site.linkedin_user %}
+<div id="badges" style="text-align: center;">
+    <a href="https://www.linkedin.com/in/{{ site.linkedin_user }}/">
+        <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+    </a>
+    <a href="https://github.com/{{ site.github_username }}">
+        <img src="https://img.shields.io/badge/GitHub-blue?style=for-the-badge&logo=GitHub" alt="GitHub">
+    </a>
+</div>
+<hr>
+{% endif %}
