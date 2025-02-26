@@ -1,5 +1,0 @@
-- name: Git
-  code: git
-
-- name: Docker
-  code: docker

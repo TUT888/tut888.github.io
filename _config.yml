@@ -6,7 +6,6 @@ description: >-
 
 domain: tut888.github.io
 url: https://tut888.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
 github_username: tut888
 linkedin_user: alice-tat
 owner_name: Alice
