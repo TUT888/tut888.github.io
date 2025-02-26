@@ -1,0 +1,59 @@
+<style>
+  .table-of-contents * {
+    padding-block: 5px;
+  }
+
+  .table-of-contents div {
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+  }
+</style>
+
+<header>
+    <!-- <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1> -->
+    <div>
+      <h1><a href="/about">{{ site.title | default: site.github.repository_name }}</a></h1>
+      {% if site.logo %}
+        <img src="{{site.logo | relative_url}}" alt="Logo" />
+      {% endif %}
+    </div>
+
+    <hr>
+
+    <div>
+      <div>{% include list/page-list.html %}</div>
+      <p>{{ site.description | default: site.github.project_tagline }}</p>
+      <div>{% include about/contact.html %}</div>
+    </div>
+
+    <hr>
+
+    <div class="table-of-contents">
+      {% if page.url=="/project" %}
+        {% if site.data.project-type %}
+          <div>Table of contents</div>
+          <ol>
+            {% for content in site.data.project-type %}
+            <li>
+              <a href="#{{ content.code }}">
+                {{ content.heading }}
+              </a>
+            </li>
+            {% endfor %}
+          </ol>
+        {% endif %}
+      {% elsif page.url contains "project" %}
+        <div>View all other projects</div>
+        <ol>
+          {% for content in site.data.project-type %}
+          <li>
+            <a href="{{ content.url }}">
+              {{ content.heading }}
+            </a>
+          </li>
+          {% endfor %}
+          </ol>
+      {% endif %}
+    </div>
+</header>

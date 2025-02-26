@@ -5,24 +5,15 @@ permalink: /project
 
 # My Project
 
-Throughout my academic journey, I have learned and completed various project across different fields, including AI/ML, Web Development, Mobile Development.
+Over the course of my academic journey, I have had the opportunity to work on a variety of projects across three key fields: Artificial Intelligence and Machine Learning, Web Development and Mobile Development. 
 
+Each project has allowed me to not only apply theoretical concepts but also to gain practical, hands-on experience in creating innovative solutions. From developing intelligent systems with AI/ML techniques to building functional web and mobile applications, I have cultivated a well-rounded skill set and a deep understanding of the diverse technologies that drive today’s digital world.
 
-## AI/ML
+{% for project in site.data.project-type %}
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## {{ project.heading }}
+***
 
-## Web Development
+{% include project/project-summary.html project-field=project.code detail-url=project.url %}
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-## Mobile Development
-
+{% endfor %}

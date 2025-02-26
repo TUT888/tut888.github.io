@@ -1,0 +1,87 @@
+<style>
+  .project {
+    padding-bottom: 25px;
+  }
+
+  .project * {
+    padding-top: 5px;
+  }
+
+  .project-title {
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  .project-type {
+    font-size: small;
+    font-style: italic;
+  }
+
+  .project-props * {
+    font-size: smaller;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    padding-inline: 6px;
+  }
+</style>
+
+{% if site.data.project-detail %}
+  {% if include.project-field=='programming' %}
+    {% assign list-of-projects = site.data.project-detail.programming %}
+  {% elsif include.project-field=='web-development' %}
+    {% assign list-of-projects = site.data.project-detail.web-development %}
+  {% elsif include.project-field=='ai-ml' %}
+    {% assign list-of-projects = site.data.project-detail.ai-ml %}
+  {% elsif include.project-field=='mobile-development' %}
+    {% assign list-of-projects = site.data.project-detail.mobile-development %}
+{% endif %}
+
+
+{% if list-of-projects %}
+
+  {% if page.permalink=='/project' %}
+    {% assign list-of-projects = list-of-projects.highlight %}
+  {% else %}
+    {% assign list-of-projects = list-of-projects.highlight | concat: list-of-projects.other %}
+  {% endif %}
+  
+  {% if page.permalink=='/project' %}
+  <div style="text-align: right"> 
+    <a href="{{ include.detail-url }}">View all projects</a>
+  </div>
+  {% endif %}
+
+  {% for project in list-of-projects %}
+  <div class="project">
+    <div class="project-title">{{ project.name }} </div>
+    <div class="project-type">{{ project.type }} - {{ project.team }} project</div>
+    <div>{{ project.description }}</div>
+
+    <div>
+      <ul>
+        {% for contribution in project.contribution %}
+          <li>{{ contribution }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="project-props">
+      {% for tech in project.tech %}
+        <span class="project-tech">{{ tech }}</span>
+      {% endfor %}
+      {% for tag in project.tag %}
+        <span class="project-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    
+    <div>
+      <a href="{{ project.git }}"><img src="https://img.shields.io/badge/GitHub-blue?logo=GitHub"></a>
+    </div>
+  </div>
+  {% endfor %}
+
+{% endif %}
+
+{% endif %}

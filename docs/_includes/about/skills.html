@@ -1,11 +1,11 @@
 <table cellspacing="0" cellpadding="0" style="border: none; width: 100%">
-  {% if site.data.web-skills %}
+  {% if site.data.tech-skills.web-development %}
   <tr>
     <td>
-      <a href="/web-project">Web Development</a>
+      <a href="/project/web">Web Development</a>
     <td>
       <td>
-        {% for skill in site.data.web-skills %}
+        {% for skill in site.data.tech-skills.web-development %}
         <span style="display: inline-block; text-align: center; padding-inline: 5px;">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/{{ skill.code }}/{{ skill.code }}-original.svg" height="30" width="30"/>
         <span style="font-size: small; display: flex; ">{{ skill.name }}</span>
@@ -15,13 +15,13 @@
   </tr>
   {% endif %}
 
-  {% if site.data.ai-skills %}
+  {% if site.data.tech-skills.ai-ml %}
   <tr>
     <td>
-      <a href="/ai-project">AI/ML</a>
+      <a href="/project/ai-ml">AI/ML</a>
     <td>
     <td>
-      {% for skill in site.data.ai-skills %}
+      {% for skill in site.data.tech-skills.ai-ml %}
       <span style="display: inline-block; text-align: center; padding-inline: 5px;">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/{{ skill.code }}/{{ skill.code }}-original.svg" height="30" width="30"/>
         <span style="font-size: small; display: flex; ">{{ skill.name }}</span>
@@ -31,13 +31,13 @@
   </tr>
   {% endif %}
 
-  {% if site.data.mobile-skills %}
+  {% if site.data.tech-skills.mobile-development %}
   <tr>
     <td>
-      <a href="/mobile-project">Mobile Development</a>
+      <a href="/project/mobile">Mobile Development</a>
     <td>
     <td>
-      {% for skill in site.data.mobile-skills %}
+      {% for skill in site.data.tech-skills.mobile-development %}
       <span style="display: inline-block; text-align: center; padding-inline: 5px;">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/{{ skill.code }}/{{ skill.code }}-original.svg" height="30" width="30"/>
         <span style="font-size: small; display: flex; ">{{ skill.name }}</span>
@@ -47,11 +47,11 @@
   </tr>
   {% endif %}
 
-  {% if site.data.other-skills %}
+  {% if site.data.tech-skills.others %}
   <tr>
     <td>Others<td>
     <td>
-      {% for skill in site.data.other-skills %}
+      {% for skill in site.data.tech-skills.others %}
       <span style="display: inline-block; text-align: center; padding-inline: 5px;">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/{{ skill.code }}/{{ skill.code }}-original.svg" height="30" width="30"/>
         <span style="font-size: small; display: flex; ">{{ skill.name }}</span>

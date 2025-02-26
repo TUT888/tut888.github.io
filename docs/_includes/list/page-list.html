@@ -1,0 +1,38 @@
+<style>
+  .pg-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .pg-li {
+    float: left;
+    text-align: center;
+    font-size: medium;
+  }
+
+  .pg-li a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+  }
+</style>
+
+{% if site.data.pages %}
+<ul class="pg-ul">
+  {% for section in site.data.pages %}
+  <li class="pg-li">
+    {% if page.url contains section.link %}
+    <a href="{{ section.link }}" style="text-decoration: underline; color: rgb(26, 67, 143); font-weight: bold;">
+      {{ section.name }}
+    </a>
+    {% else %}
+    <a href="{{ section.link }}">
+      {{ section.name }}
+    </a>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

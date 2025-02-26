@@ -1,0 +1,138 @@
+programming:
+  highlight:
+    - name: Food Serving Game
+      type: Custom program code
+      team: Individual
+      git: https://github.com/TUT888/SplashKit-FoodServingGame
+      description: >-
+        A simple food serving game inspired by Cooking Dash game series
+      tech: 
+        - C#/.NET
+        - SplashKit SDK
+      tag:
+        - OOP
+        - Game Development
+      contribution:
+        - Applied OOP concepts to implement the objects in kitchens, including player, customer, benches, food, drink and bins.
+        - Successfully built features such as player movement, random order management, combination of food and drink, as well as interaction with other kitchen objects (benches and bins)
+
+  other:
+    - name: Other Food Serving Game
+      type: Custom program code
+      team: Individual
+      description: >-
+        A simple food serving game inspired by Cooking Dash game series
+      tech: 
+        - C#/.NET
+        - SplashKit SDK
+      tag:
+        - OOP
+        - Game Development
+      contribution:
+        - Applied OOP concepts to implement the objects in kitchens, including player, customer, benches, food, drink and bins.
+        - Successfully built features such as player movement, random order management, combination of food and drink, as well as interaction with other kitchen objects (benches and bins)
+
+web-development:
+  highlight:
+    - name: Food Serving Game
+      type: Custom program code
+      team: Individual
+      git: https://github.com/TUT888/SplashKit-FoodServingGame
+      description: >-
+        A simple food serving game inspired by Cooking Dash game series
+      tech: 
+        - C#/.NET
+        - SplashKit SDK
+      tag:
+        - OOP
+        - Game Development
+      contribution:
+        - Applied OOP concepts to implement the objects in kitchens, including player, customer, benches, food, drink and bins.
+        - Successfully built features such as player movement, random order management, combination of food and drink, as well as interaction with other kitchen objects (benches and bins)
+
+  other:
+  - name: Food Serving Game
+    type: Custom program code
+    team: Individual
+    git: https://github.com/TUT888/SplashKit-FoodServingGame
+    description: >-
+      A simple food serving game inspired by Cooking Dash game series
+    tech: 
+      - C#/.NET
+      - SplashKit SDK
+    tag:
+      - OOP
+      - Game Development
+    contribution:
+      - Applied OOP concepts to implement the objects in kitchens, including player, customer, benches, food, drink and bins.
+      - Successfully built features such as player movement, random order management, combination of food and drink, as well as interaction with other kitchen objects (benches and bins)
+
+ai-ml:
+  highlight:
+    - name: Food Serving Game
+      type: Custom program code
+      team: Individual
+      git: https://github.com/TUT888/SplashKit-FoodServingGame
+      description: >-
+        A simple food serving game inspired by Cooking Dash game series
+      tech: 
+        - C#/.NET
+        - SplashKit SDK
+      tag:
+        - OOP
+        - Game Development
+      contribution:
+        - Applied OOP concepts to implement the objects in kitchens, including player, customer, benches, food, drink and bins.
+        - Successfully built features such as player movement, random order management, combination of food and drink, as well as interaction with other kitchen objects (benches and bins)
+
+  other:
+  - name: Food Serving Game
+    type: Custom program code
+    team: Individual
+    git: https://github.com/TUT888/SplashKit-FoodServingGame
+    description: >-
+      A simple food serving game inspired by Cooking Dash game series
+    tech: 
+      - C#/.NET
+      - SplashKit SDK
+    tag:
+      - OOP
+      - Game Development
+    contribution:
+      - Applied OOP concepts to implement the objects in kitchens, including player, customer, benches, food, drink and bins.
+      - Successfully built features such as player movement, random order management, combination of food and drink, as well as interaction with other kitchen objects (benches and bins)
+
+mobile-development:
+  highlight:
+    - name: Food Serving Game
+      type: Custom program code
+      team: Individual
+      git: https://github.com/TUT888/SplashKit-FoodServingGame
+      description: >-
+        A simple food serving game inspired by Cooking Dash game series
+      tech: 
+        - C#/.NET
+        - SplashKit SDK
+      tag:
+        - OOP
+        - Game Development
+      contribution:
+        - Applied OOP concepts to implement the objects in kitchens, including player, customer, benches, food, drink and bins.
+        - Successfully built features such as player movement, random order management, combination of food and drink, as well as interaction with other kitchen objects (benches and bins)
+
+  other:
+  - name: Food Serving Game
+    type: Custom program code
+    team: Individual
+    git: https://github.com/TUT888/SplashKit-FoodServingGame
+    description: >-
+      A simple food serving game inspired by Cooking Dash game series
+    tech: 
+      - C#/.NET
+      - SplashKit SDK
+    tag:
+      - OOP
+      - Game Development
+    contribution:
+      - Applied OOP concepts to implement the objects in kitchens, including player, customer, benches, food, drink and bins.
+      - Successfully built features such as player movement, random order management, combination of food and drink, as well as interaction with other kitchen objects (benches and bins)

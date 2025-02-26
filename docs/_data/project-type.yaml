@@ -1,0 +1,15 @@
+- heading: Programming
+  code: programming
+  url: /project/programming
+
+- heading: Web Development 
+  code: web-development
+  url: /project/web
+
+- heading: AI-ML
+  code: ai-ml
+  url: /project/ai-ml
+
+- heading: Mobile Development
+  code: mobile-development
+  url: /project/mobile

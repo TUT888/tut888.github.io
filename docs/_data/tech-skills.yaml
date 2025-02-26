@@ -1,0 +1,72 @@
+web-development:
+  - name: HTML5
+    code: html5
+
+  - name: CSS3
+    code: css3
+
+  - name: JavaScript
+    code: javascript
+
+  - name: MySQL
+    code: mysql
+
+  - name: MongoDB
+    code: mongodb
+
+  - name: PHP
+    code: php
+
+  - name: Node.js
+    code: nodejs
+
+  - name: jQuery
+    code: jquery
+
+  - name: BootStrap
+    code: bootstrap
+
+  - name: MaterializeCSS
+    code: materializecss
+
+ai-ml:
+  - name: Python
+    code: python
+
+  - name: NumPy
+    code: numpy
+
+  - name: pandas
+    code: pandas
+
+  - name: Matplotlib
+    code: matplotlib
+
+  - name: opencv
+    code: opencv
+
+  - name: PyTorch
+    code: pytorch
+
+  - name: scikit-learn
+    code: scikitlearn
+
+  - name: TensorFlow
+    code: tensorflow
+
+  - name: Keras
+    code: keras
+
+mobile-development:
+  - name: Java
+    code: java
+
+  - name: Android Studio
+    code: androidstudio
+  
+others:
+  - name: Git
+    code: git
+
+  - name: Docker
+    code: docker
