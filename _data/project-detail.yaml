@@ -1,11 +1,33 @@
 programming:
   highlight:
-    - name: Food Serving Game
-      type: Custom program code
+    - name: Animated Item Catching Game
+      type: Custom program with walkthrough
       team: Individual
-      git: https://github.com/TUT888/SplashKit-FoodServingGame
+      git: https://github.com/TUT888/SpriteGame
+      youtube: https://youtu.be/l3gkwFXfVLA
       description: >-
-        A simple food serving game inspired by Cooking Dash game series
+        A simple animated game created using the SplashKit API, accompanied by a walkthrough guide explaining its development and a brief introduction to SplashKit Animation. 
+        This project showcases my programming skills, ability to learn an API through documentation, and proficiency in writing technical documentation
+      tech: 
+        - C#/.NET
+        - SplashKit SDK
+      tag:
+        - OOP
+        - Game Development
+        - Walkthrough
+      contribution:
+        - Applied OOP concepts to implement animated objects, such as items (Bomb and Apple) and the player.
+        - Developed functionalities for player movement and interaction with items, along with their corresponding animations.
+        - Created a walkthrough guide explaining the development process, which can also serve as a tutorial.
+    
+    - name: Food Serving Game
+      type: Custom program
+      team: Individual
+      youtube: https://youtu.be/Jes0L1UmNCA
+      description: >-
+        A simple food-serving game inspired by the Cooking Dash series. 
+        In this game, players take on the role of a worker in a bustling kitchen, where they must fulfill customer orders consisting of food and drinks. 
+        The goal is to efficiently manage and deliver orders, navigating through various challenges and interacting with different kitchen objects.
       tech: 
         - C#/.NET
         - SplashKit SDK
@@ -13,126 +35,136 @@ programming:
         - OOP
         - Game Development
       contribution:
-        - Applied OOP concepts to implement the objects in kitchens, including player, customer, benches, food, drink and bins.
-        - Successfully built features such as player movement, random order management, combination of food and drink, as well as interaction with other kitchen objects (benches and bins)
+        - Applied OOP concepts to model objects in the kitchen, including the Player, Customer, Benches, Food, Drink, and Bins.
+        - Developed functionalities such as player movement, random order management, food and drink combinations, and interaction with other kitchen objects (benches and bins)
 
   other:
-    - name: Other Food Serving Game
-      type: Custom program code
-      team: Individual
+    - name: Audio Trimmer Tool
+      type: Tool with Python
+      team: Personal
+      git: https://github.com/TUT888/ToolsWithPython/tree/ui
       description: >-
-        A simple food serving game inspired by Cooking Dash game series
+        This project is an audio trimming tool, built using the Pydub library, designed to cut a single audio file into a shorter segment or split it into multiple files. 
+        The original purpose of this program is to streamline the trimming process for long audio files by using an input audio file and trimming information stored in a text file. 
+        This eliminates the need for manual trimming, saving, and renaming of each output file, as the necessary details are already specified in the text file.
       tech: 
-        - C#/.NET
-        - SplashKit SDK
+        - Python
+        - Pydub
+        - Tkinter
       tag:
         - OOP
-        - Game Development
+        - Programming
       contribution:
-        - Applied OOP concepts to implement the objects in kitchens, including player, customer, benches, food, drink and bins.
-        - Successfully built features such as player movement, random order management, combination of food and drink, as well as interaction with other kitchen objects (benches and bins)
+        - Developed an audio trimming tool to convert a single audio file into one or multiple output files.
+        - Organized and refactored project code and structure for improved efficiency (in progress).
+        - Built a user interface using Tkinter for selecting input audio and specifying output details (in progress).
 
 web-development:
   highlight:
-    - name: Food Serving Game
-      type: Custom program code
-      team: Individual
-      git: https://github.com/TUT888/SplashKit-FoodServingGame
+    - name: Freelance Fusion
+      type: Web application
+      team: Group
+      git:  https://github.com/TUT888/FreelanceFusion
       description: >-
-        A simple food serving game inspired by Cooking Dash game series
+        FreelanceFusion is an applied software engineering project, creating a platform where freelancers can create profiles and connect with clients seeking various services. 
+        It facilitates direct communication, helping freelancers and clients establish effective connections.
       tech: 
-        - C#/.NET
-        - SplashKit SDK
+        - HTML-CSS-JavaScript
+        - jQuery
+        - Node.js
+        - MongoDB
+        - EJS
+        - Mocha/Chai
+        - Cypress
       tag:
-        - OOP
-        - Game Development
+        - MVC architecture
+        - Frontend
+        - Backend
+        - Unit testing
+        - End-to-end testing
       contribution:
-        - Applied OOP concepts to implement the objects in kitchens, including player, customer, benches, food, drink and bins.
-        - Successfully built features such as player movement, random order management, combination of food and drink, as well as interaction with other kitchen objects (benches and bins)
+        - Created interactive prototypes using Figma to visualize user interface as well as user flows.
+        - Implemented the profile management and rating/review features with real-time notifications using Socket.IO.
+        - Conducted unit testing with Mocha and Chai, and end-to-end testing with Cypress.
 
   other:
-  - name: Food Serving Game
-    type: Custom program code
-    team: Individual
-    git: https://github.com/TUT888/SplashKit-FoodServingGame
-    description: >-
-      A simple food serving game inspired by Cooking Dash game series
-    tech: 
-      - C#/.NET
-      - SplashKit SDK
-    tag:
-      - OOP
-      - Game Development
-    contribution:
-      - Applied OOP concepts to implement the objects in kitchens, including player, customer, benches, food, drink and bins.
-      - Successfully built features such as player movement, random order management, combination of food and drink, as well as interaction with other kitchen objects (benches and bins)
+    - name: Bookstore Management
+      type: Web application
+      team: Group
+      git: https://github.com/TUT888/Bookstore-Management
+      description: >-
+        A simple web application designed to assist administrators in managing a bookstore. 
+        The project includes three main features: employee management, product management, and voucher management. 
+      tech: 
+        - HTML-CSS-JavaScript
+        - jQuery
+        - MySQL
+        - PHP
+        - XAMPP
+      tag:
+        - MVC architecture
+        - Frontend
+        - Backend
+      contribution:
+        - Implement basic functions (CRUD - Create/Read/Update/Delete) for employee management
 
 ai-ml:
   highlight:
-    - name: Food Serving Game
-      type: Custom program code
-      team: Individual
-      git: https://github.com/TUT888/SplashKit-FoodServingGame
+    - name: Stock Price Prediction
+      type: Knowledge discovery and data mining
+      team: Group
+      git: https://github.com/TUT888/StockPricePrediction_LSTM
       description: >-
-        A simple food serving game inspired by Cooking Dash game series
+        This project consists of two parts: web scraping and stock price prediction. 
+        Web scraping is used to collect relevant information over a specified period for a given stock based on the input symbol. 
+        The scraped data is then used to train a model and predict the upcoming price trend of the specified stock.
       tech: 
-        - C#/.NET
-        - SplashKit SDK
+        - Python
+        - Selenium
+        - LSTM
       tag:
-        - OOP
-        - Game Development
+        - Data mining
+        - AI-ML
       contribution:
-        - Applied OOP concepts to implement the objects in kitchens, including player, customer, benches, food, drink and bins.
-        - Successfully built features such as player movement, random order management, combination of food and drink, as well as interaction with other kitchen objects (benches and bins)
+        - Predicted stock price trend using Python and its libraries
+        - Collect stock closing prices from 2020-2022 and generated stock price charts
+        - Trained LSTM model for stock closing price prediction
+    
+    - name: Question answering system for Vietnamese
+      type: Natural language processing
+      team: Group
+      git: https://github.com/TUT888/QuestionAnsweringSystem
+      description: >-
+        A simple question-answering system, also known as a chatbot, designed to provide answers to user queries using an information retrieval-based approach. 
+        The input question is analyzed, and the program identifies relevant predefined questions based on its characteristics to retrieve the corresponding answer.
+      tech: 
+        - Python
+      tag:
+        - AI-ML
+        - NLP
+        - Information retrieval-based
+      contribution:
+        - Applied TF-IDF to extract text features
+        - Retrieved paired answer based on similar question
 
   other:
-  - name: Food Serving Game
-    type: Custom program code
-    team: Individual
-    git: https://github.com/TUT888/SplashKit-FoodServingGame
-    description: >-
-      A simple food serving game inspired by Cooking Dash game series
-    tech: 
-      - C#/.NET
-      - SplashKit SDK
-    tag:
-      - OOP
-      - Game Development
-    contribution:
-      - Applied OOP concepts to implement the objects in kitchens, including player, customer, benches, food, drink and bins.
-      - Successfully built features such as player movement, random order management, combination of food and drink, as well as interaction with other kitchen objects (benches and bins)
-
+  
 mobile-development:
   highlight:
-    - name: Food Serving Game
-      type: Custom program code
-      team: Individual
-      git: https://github.com/TUT888/SplashKit-FoodServingGame
+    - name: Tutor searching
+      type: Android application
+      team: Group
+      git:  https://github.com/TUT888/WebService-TutorApp
       description: >-
         A simple food serving game inspired by Cooking Dash game series
       tech: 
-        - C#/.NET
-        - SplashKit SDK
+        - Android Studio
+        - Java
       tag:
-        - OOP
-        - Game Development
+        - Mobile Development
+        - Web Service
       contribution:
-        - Applied OOP concepts to implement the objects in kitchens, including player, customer, benches, food, drink and bins.
-        - Successfully built features such as player movement, random order management, combination of food and drink, as well as interaction with other kitchen objects (benches and bins)
+        - Collaborated with team members to create Android applications with basic functions (CRUD)
+        - Collaborated with team members to implemented a web application for database interaction, and provided web service for the Android application
 
-  other:
-  - name: Food Serving Game
-    type: Custom program code
-    team: Individual
-    git: https://github.com/TUT888/SplashKit-FoodServingGame
-    description: >-
-      A simple food serving game inspired by Cooking Dash game series
-    tech: 
-      - C#/.NET
-      - SplashKit SDK
-    tag:
-      - OOP
-      - Game Development
-    contribution:
-      - Applied OOP concepts to implement the objects in kitchens, including player, customer, benches, food, drink and bins.
-      - Successfully built features such as player movement, random order management, combination of food and drink, as well as interaction with other kitchen objects (benches and bins)
+  other: 

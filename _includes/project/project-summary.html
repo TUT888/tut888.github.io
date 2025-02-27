@@ -77,7 +77,12 @@
     </div>
     
     <div>
+      {% if project.git %}
       <a href="{{ project.git }}"><img src="https://img.shields.io/badge/GitHub-blue?logo=GitHub"></a>
+      {% endfor %}
+      {% if project.youtube %}
+      <a href="{{ project.youtube }}"><img src="https://img.shields.io/badge/YouTube-red?logo=YouTube"></a>
+      {% endfor %}
     </div>
   </div>
   {% endfor %}
