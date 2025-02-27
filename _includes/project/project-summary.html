@@ -44,7 +44,11 @@
   {% if page.permalink=='/project' %}
     {% assign list-of-projects = list-of-projects.highlight %}
   {% else %}
-    {% assign list-of-projects = list-of-projects.highlight | concat: list-of-projects.other %}
+    {% if list-of-projects.other %}
+      {% assign list-of-projects = list-of-projects.highlight | concat: list-of-projects.other %}
+    {% else %}
+      {% assign list-of-projects = list-of-projects.highlight %}
+    {% endif %}
   {% endif %}
   
   {% if page.permalink=='/project' %}
