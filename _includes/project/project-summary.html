@@ -18,12 +18,24 @@
   }
 
   .project-props * {
+    display: inline-block;
     font-size: smaller;
     border-radius: 5px;
     border-style: solid;
     border-color: grey;
     border-width: 1px;
-    padding-inline: 6px;
+    padding-inline: 5px;
+    margin-bottom: 10px;
+  }
+
+  .project-props .project-tech {
+    border-color: darkblue;
+    color: darkblue;
+  }
+
+  .project-props .project-tag {
+    border-color: brown;
+    color: brown;
   }
 </style>
 
@@ -75,6 +87,7 @@
       {% for tech in project.tech %}
         <span class="project-tech">{{ tech }}</span>
       {% endfor %}
+      <br>
       {% for tag in project.tag %}
         <span class="project-tag">{{ tag }}</span>
       {% endfor %}

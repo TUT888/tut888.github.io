@@ -7,33 +7,17 @@
   <img src="https://media.giphy.com/media/LMcB8XospGZO8UQq87/giphy.gif" width="300"/>
 </div>
 
-{% if page.url!="/about" %}
+{% if page.url=="/" %}
   {% include about/contact.html %}
 {% endif %}
 
-{% if page.url!="/about" %}
+<div style="text-align: center; font-size: large; font-weight: bold;">
   <a href="/project">View my projects</a>
-{% endif %}
-
-<div style="padding-top: 10px;">
-  <h3>About me</h3>
-  <div>
-    <p>Hello! I'm currently a Master's student at Deakin University, passionate about software engineering and continuously enhancing my skills and knowledge in the field.</p>
-    <ul>
-      <li>
-        Aspiring <b>full-stack software developer</b> with a passion for creating innovative solutions.
-      </li>
-      <li>
-        Currently learning <b>backend development</b>, enhancing expertise and refining skills in modern <b>software engineering practices</b>.
-      </li>
-      <li>
-        Gained hands-on experience in <b>Artificial Intelligence and Machine Learning</b> during my Bachelor's degree and through an AI Engineer internship at TMA Solutions (Vietnam).
-      </li>
-    </ul>  
-  </div>
 </div>
 
+{% include about/about-me.html %}
+
 <div style="padding-top: 10px;">
-  <h3>Languages and tools</h3>
+  <h3>Skills</h3>
   {% include about/skills.html %}
 </div>
