@@ -30,7 +30,13 @@
     <hr>
 
     <div class="table-of-contents">
-      {% if page.url=="/project" %}
+      {% if page.url=="/about" %}
+      <div>Table of contents</div>
+      <ol>
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ol>
+      {% elsif page.url=="/project" %}
         {% if site.data.project-type %}
           <div>Table of contents</div>
           <ol>

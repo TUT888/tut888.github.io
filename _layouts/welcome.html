@@ -11,10 +11,24 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    {{ content }}
-    
-    {% include introduction.html %}
+  <div class="wrapper">    
+    {% include about/greetings.html %}
+
+    {% include about/contact.html %}
+
+    <div style="text-align: center; font-size: large; font-weight: bold;">
+      <a href="/project">View my projects</a>
+    </div>
+
+    <div style="padding-top: 10px;">
+      <h2 id="introduction">Introduction</h2>
+      {{ content }}
+    </div>
+
+    <div style="padding-top: 10px;">
+      <h2 id="skills">Skills</h2>
+      {% include about/skills.html %}
+    </div>
   </div>
   <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 </body>
