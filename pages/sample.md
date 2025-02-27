@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: sample
+title: Sample Page
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

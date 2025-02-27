@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /project/programming
+title: Programming Project
 ---
 
 [Back to project](/project)

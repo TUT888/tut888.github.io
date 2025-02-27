@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /project/ai-ml
+title: AI/ML Project
 ---
 
 [Back to project](/project)

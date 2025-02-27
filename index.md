@@ -1,5 +1,6 @@
 ---
 layout: welcome
+title: Welcome
 ---
 
 {{ site.description }}

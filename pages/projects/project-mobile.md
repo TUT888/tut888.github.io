@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /project/mobile
+title: Mobile Project
 ---
 
 [Back to project](/project)

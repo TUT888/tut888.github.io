@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /project
+title: My Project
 ---
 
 # My Project
