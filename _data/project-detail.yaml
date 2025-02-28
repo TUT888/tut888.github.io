@@ -23,6 +23,7 @@ programming:
     - name: Food Serving Game
       type: Custom program
       team: Individual
+      git: https://github.com/TUT888/SplashKit-FoodServingGame
       youtube: https://youtu.be/Jes0L1UmNCA
       description: >-
         A simple food-serving game inspired by the Cooking Dash series. 
